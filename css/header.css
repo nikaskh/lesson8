@@ -1,0 +1,33 @@
+header {
+    background-color: #0020F4;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.logo {
+    margin-left: 100px;
+}
+.nav-ul,
+.header-div  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-ul {
+    margin-right: 50px
+}
+.nav-ul li{
+    padding-right: 50px;
+}
+button {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}

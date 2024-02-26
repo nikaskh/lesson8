@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+section {
+    margin-top: 100px;
+}
+.box {
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    background-color: #0020F4;
+}
+.conteiner-one{
+    display: flex;
+    margin-left: 100px;
+}
+.item {
+    width: 400px;
+    margin-top: 50px;
+}
+.item p,
+.item h4 {
+    padding-top: 20px;
+}
+.dot{
+    width: 5px;
+    height: 5px;
+    border: 5px solid;
+    color: red;
+    border-radius: 28px;
+    display: flex;
+}
+.s{
+    display: flex;
+}
